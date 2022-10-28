@@ -1,0 +1,47 @@
+[
+    {
+      "id": 1,
+      "name": "React",
+      "description": "ReactJS tutorial provides basic and advanced concepts of ReactJS. Currently, ReactJS is one of the most popular JavaScript front-end libraries which has a strong foundation and a large community. ReactJS is a declarative, efficient, and flexible JavaScript library for building reusable UI components. It is an open-source, component-based front end library which is responsible only for the view layer of the application. It was initially developed and maintained by Facebook and later used in its products like WhatsApp & Instagram. Our ReactJS tutorial includes all the topics which help to learn ReactJS. These are ReactJS Introduction, ReactJS Features, ReactJS Installation, Pros and Cons of ReactJS, ReactJS JSX, ReactJS Components, ReactJS State, ReactJS Props, ReactJS Forms, ReactJS Events, ReactJS Animation and many more."
+    },
+    {
+      "id": 2,
+      "name": "JavaScript",
+      "description": "JavaScript is a scripting or programming language that allows you to implement complex features on web pages — every time a web page does more than just sit there and display static information for you to look at — displaying timely content updates, interactive maps, animated 2D/3D graphics, scrolling video jukeboxes, etc. — you can bet that JavaScript is probably involved. It is the third layer of the layer cake of standard web technologies, two of which (HTML and CSS) we have covered in much more detail in other parts of the Learning Area."
+    },
+    {
+      "id": 3,
+      "name": "PHP",
+      "description": "PHP is a server side scripting language. that is used to develop Static websites or Dynamic websites or Web applications. PHP stands for Hypertext Pre-processor, that earlier stood for Personal Home Pages. PHP scripts can only be interpreted on a server that has PHP installed. The client computers accessing the PHP scripts require a web browser only. A PHP file contains PHP tags and ends with the extension "
+    },
+    {
+      "id": 4,
+      "name": "Python",
+      "description": "Python has become one of the most popular programming languages in the world in recent years. It's used in everything from machine learning to building websites and software testing. It can be used by developers and non-developers alike."
+    },
+    {
+      "id": 5,
+      "name": "Python",
+      "description": "Graphic design is the art or profession of visual communication that combines images, words, and ideas to convey information to an audience, especially to produce a specific effect. In other words, graphic design is communication design; It’s a way of conveying ideas through visuals and design."
+    },
+    {
+      "id": 6,
+      "name": "WordPress",
+      "description": "WordPress began in 2003 as a piece of free blogging software created by Mike Little and Mike Mullenweg, who continues to run WordPress.org, the company that makes WordPress available to anyone who wants to create a website or blog. In developing WordPress and making it perpetually free, its creators hoped to “democratize publishing” by designing a site building program that could allow anyone to have a voice and presence online."
+    },
+    {
+      "id": 7,
+      "name": "Firebase",
+      "description": "Google Firebase is a Google-backed application development software that enables developers to develop iOS, Android and Web apps. Firebase provides tools for tracking analytics, reporting and fixing app crashes, creating marketing and product experiment."
+    },
+    {
+      "id": 8,
+      "name": "Tailwind.css",
+      "description": "Tailwind CSS can be used to make websites in the fastest and the easiest way. Tailwind CSS is basically a utility-first CSS framework for rapidly building custom user interfaces. It is a highly customizable, low-level CSS framework that gives you all of the building blocks you need to build bespoke designs without any annoying opinionated styles you have to fight to override. The beauty of this thing called tailwind is it doesn’t impose design specification or how your site should look like, you simply bring tiny components together to construct a user interface that is unique. What Tailwind simply does is take a ‘raw’ CSS file, processes this CSS file over a configuration file, and produces an output."
+    },
+    {
+      "id": 9,
+      "name": "Node.js",
+      "description": "Node.js is an open source, cross-platform runtime environment for developing server-side and networking applications. Node.js applications are written in JavaScript, and can be run within the Node.js runtime on OS X, Microsoft Windows, and Linux. Node.js also provides a rich library of various JavaScript modules which simplifies the development of web applications using Node.js to a great extent."
+    }
+  ]

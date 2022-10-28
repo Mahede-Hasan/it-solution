@@ -1,0 +1,14 @@
+.google-btn{
+    width: 55%;
+    margin-left: 113px;
+    border: none;
+    border-radius: 4px;
+    background-color: rgb(127, 4, 243);
+    padding: 3px 0px;
+    color: white;
+    font-weight: 600;
+}
+
+.google-btn:hover{
+    background-color: rgb(90, 3, 171);
+}

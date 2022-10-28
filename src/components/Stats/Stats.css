@@ -1,0 +1,31 @@
+.card-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 280px !important;
+    height: 180px;
+    border: 2px solid rgb(17, 192, 255);
+    border-radius: 4px;
+    margin: 30px auto !important;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    cursor: pointer;
+}
+
+.card-box h1{
+    text-align: center !important;
+    font-weight: 700;
+}
+
+.card-box h2{
+    font-size: 24px;
+    font-weight: 700;
+    color: gray;
+    text-align: center;
+}
+
+.stat-icon{
+    font-size: 40px !important;
+    text-align: center !important;
+    padding-left: 40%;
+    color: rgb(17, 192, 255);
+}

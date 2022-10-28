@@ -1,0 +1,136 @@
+.story-container {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    margin: 70px auto;
+}
+
+.story-content {
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+
+.story-line h5{
+    color: gray !important;
+}
+
+.story-text p {
+    font-size: 17px;
+    font-weight: 600;
+    text-align: justify;
+    color: gray;
+}
+
+.text-info {
+    font-weight: 700;
+    font-size: 19px;
+}
+
+.line {
+    margin-left: 40px;
+    margin-top: 30px;
+    width: 1px;
+    height: 400px;
+    background-color: rgba(162, 162, 162, 0.591);
+}
+
+.story-img img {
+    width: 380px;
+    height: 250px;
+    margin-top: 90px;
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.read-more-btn {
+    background-color: rgb(11, 186, 244);
+    border: 2px solid rgb(11, 186, 244);
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+    margin-right: 30px;
+    padding: 1px 12px;
+}
+
+.read-more-btn:hover {
+    background-color: transparent;
+    border: 2px solid rgb(11, 186, 244);
+    color: rgb(11, 186, 244);
+    transition: 0.3s;
+    transform: scale(1.05);
+}
+
+.quote-btn {
+    background-color: transparent;
+    border: 2px solid rgb(11, 186, 244);
+    color: rgb(11, 186, 244);
+    font-weight: 600;
+    font-size: 18px;
+    margin-right: 30px;
+    padding: 1px 12px;
+}
+
+.quote-btn:hover {
+    background-color: rgb(11, 186, 244);
+    border: 2px solid rgb(11, 186, 244);
+    color: white;
+    transition: 0.3s;
+    transform: scale(1.05);
+}
+
+
+/* responsive */
+
+@media only screen and (max-width:992px) {
+    .story-container {
+        display: block;
+        margin: 50px auto;
+    }
+
+    .story-content{
+       margin-left: 10px;
+       margin-right: 50px;
+    }
+
+.story-text{
+    margin-left: 20px;
+}
+
+    .line{
+        margin-right: 30px;
+        margin-left: 30px;
+        height: 300px;
+    }
+
+    .story-line h5{
+        font-size: 14px;
+        margin-top: 10px;
+    }
+
+    .story-text p{
+        font-size: 13px;
+    }
+
+    .read-more-btn{
+        font-weight: 500;
+    font-size: 15px;
+    margin-right: 10px;
+    padding: 1px 8px;
+    }
+
+    .quote-btn{
+        font-weight: 500;
+    font-size: 15px;
+    margin-right: 10px;
+    padding: 1px 8px;
+    }
+
+
+    .story-img img {
+        margin-left: 15%;
+        width: 380px;
+        height: 250px;
+        margin-top: 40px;
+        border-radius: 4px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+}

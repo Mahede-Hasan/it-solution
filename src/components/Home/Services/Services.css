@@ -1,0 +1,11 @@
+.service-text {
+    display: block;
+    margin: 0 0.5rem;
+    animation: slideInDown;
+    animation-duration: 1s;
+    text-decoration: line-through;
+}
+
+.services-container{
+    padding-top: 100px;
+}

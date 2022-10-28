@@ -1,0 +1,38 @@
+[
+    {
+      "id": 1,
+      "name": "Software Development",
+      "img": "https://res.cloudinary.com/dxyvqsdqv/image/upload/v1666588291/IT_Solution/services/software_apvmpw.jpg",
+      "description": "We can provide you the exact software solution that's right for your business process to get the most possible output."
+    },
+    {
+      "id": 2,
+      "name": "Web Development",
+      "img": "https://res.cloudinary.com/dxyvqsdqv/image/upload/v1666588290/IT_Solution/services/web_gselq8.jpg",
+      "description": "Most consumers are looking online for information that will help them make smarter purchasing decisions"
+    },
+    {
+      "id": 3,
+      "name": "App Development",
+      "img": "https://res.cloudinary.com/dxyvqsdqv/image/upload/v1666591940/IT_Solution/services/app_bble4f.jpg",
+      "description": "We conduct various IT related professional courses basis on Web Design & Development, Computer Networking and Graphics Design"
+    },
+    {
+      "id": 4,
+      "name": "Digital Marketing",
+      "img": "https://res.cloudinary.com/dxyvqsdqv/image/upload/v1666588290/IT_Solution/services/digital_wanrts.jpg",
+      "description": "We help you to reach your business most of your target customers through SEO, Email, SMS, Google, Facebook Marketing."
+    },
+    {
+      "id": 5,
+      "name": "E-Commerce Solution",
+      "img": "https://res.cloudinary.com/dxyvqsdqv/image/upload/v1666588291/IT_Solution/services/e-commerce_mkjexh.jpg",
+      "description": "We have another Core Service on E- Commerce.Our Ecommerce platform for Selling Goods around the world."
+    },
+    {
+      "id": 6,
+      "name": "Graphics Design",
+      "img": "https://res.cloudinary.com/dxyvqsdqv/image/upload/v1666588292/IT_Solution/services/graphics_raf9se.jpg",
+      "description": "Create content that approaches an idea, solves a problem, or relieves a pain point in an innovative way"
+    }
+  ]
