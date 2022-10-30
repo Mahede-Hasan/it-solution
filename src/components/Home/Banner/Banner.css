@@ -1,13 +1,12 @@
-.carousel-container {
-    height: 100vh;
+.carousel-container{
+    height: 600px;
     min-height: 300px;
     background: no-repeat scroll center scroll;
     -webkit-background-size: cover;
     background-size: cover;
-    
 }
 
-.carousel-container::before {
+.carousel-container::before{
     content: '';
     display: block;
     position: absolute;
@@ -16,12 +15,19 @@
     left: 0;
     bottom: 0;
     background-image: linear-gradient(#000000, #3c3c3c, #000000);
-    height: 100vh;
+    height: 600px;
     min-height: 300px;
     background: no-repeat scroll center scroll;
     -webkit-background-size: cover;
     background-size: cover;
     opacity: 0.7;
+}
+
+.banner-img{
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .carousel-control-prev-icon {
@@ -76,3 +82,101 @@
     border: 2px solid rgb(11, 186, 244);
     color: rgb(11, 186, 244);
 }
+
+/* responsive banner */
+
+/* for laptop */
+@media only screen and (max-width: 992px) {
+    .carousel-container{
+        height: 500px;
+    }
+
+    .carousel-container::before{
+        height: 500px;
+    }
+
+    .banner-img{
+        height: 500px;
+    }
+}
+
+/* for tablet device */
+@media only screen and (max-width: 768px) {
+    .carousel-container{
+        height: 400px;
+    }
+
+    .carousel-container::before{
+        height: 400px;
+    }
+
+    .banner-img{
+        height: 400px;
+    }
+
+    /* banner content  */
+    .banner-content {
+        padding-bottom: 26px;
+    }
+    
+    .banner-content h1 {
+        font-size: 30px;
+        padding-bottom: 10px;
+    }
+
+    .banner-btn {
+        padding: 3px 22px;
+        font-size: 17px;
+        font-weight: 600;
+        border-radius: 2px;
+        display: inline-block;
+        margin: 0 0.5rem;
+        animation: slideInRight;
+        animation-duration: 1.5s;
+        margin-top: 10px;
+    }
+    
+}
+
+/* for mobile  */
+@media only screen and (max-width: 576px) {
+    .carousel-container{
+        height: 300px;
+    }
+
+    .carousel-container::before{
+        height: 300px;
+    }
+
+    .banner-img{
+        height: 300px;
+    }
+
+    /* banner content  */
+    .banner-content {
+        padding-bottom: 0px;
+    }
+    
+    .banner-content h1 {
+        font-size: 30px;
+        padding-bottom: 8px;
+    }
+
+    .banner-content p{
+        font-size: 12px;
+    }
+
+    .banner-btn {
+        padding: 3px 22px;
+        font-size: 14px;
+        font-weight: 600;
+        border-radius: 2px;
+        display: inline-block;
+        margin: 0 0.5rem;
+        animation: slideInRight;
+        animation-duration: 1.5s;
+        
+    }
+    
+}
+

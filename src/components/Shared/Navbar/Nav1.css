@@ -7,27 +7,13 @@
 }
 
 .social{
-    margin-left: 8px;
+    margin-left: 14px;
+    fill: white;
+    fill-opacity: 0.5;
 }
 .social:hover{
+    transition: 0.3s ease-in-out;
     transform: scale(1.08);
-}
-
-.login-text{
-    font-size: 16px;
-    font-weight: 600;
-    text-decoration: none;
-    border: 2px solid rgb(255, 255, 255);
-    background-color: transparent;
-    color: white;
-    padding: 1px 15px;
-    margin-left: 20px;
-}
-
-.login-text:hover{
-    background-color: rgb(11, 186, 244);
-    border: 2px solid rgb(11, 186, 244);
-    color: white;
-    transition: 0.3s;
-    transform: scale(1.1);
+    fill: rgb(36, 192, 254);
+    fill-opacity: 1;
 }

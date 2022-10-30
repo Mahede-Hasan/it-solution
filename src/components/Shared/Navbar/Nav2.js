@@ -1,16 +1,28 @@
-import React, { useEffect, useState } from 'react';
+import { signOut } from 'firebase/auth';
+import React, { useEffect, useRef, useState } from 'react';
+import { useAuthState } from 'react-firebase-hooks/auth';
 import { Link, NavLink, useLocation } from 'react-router-dom';
+import auth from '../../../firebase_init';
 import './Nav2.css'
+import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/solid';
 
 const Nav2 = () => {
     const location = useLocation()
     const [bgColor, setBgColor] = useState(false);
     const [color, setColor] = useState(false)
+    const [user] = useAuthState(auth);
+    const navRef = useRef()
+
+    // responsive navbar
+    const showNavbar = () => {
+        navRef.current.classList.toggle('responsive_nav')
+    }
 
     // navbar scrolling color change
+
     const changeColor = () => {
-        if (window.scrollY >= 90) {
-            setColor(true);
+        if (window.scrollY >= 60) {
+            setColor(true)
         }
         else {
             setColor(false)
@@ -20,8 +32,8 @@ const Nav2 = () => {
 
     // when click another route change the background color in navbar
     useEffect(() => {
-        if (location.pathname !== '/home') {
-            setBgColor('black')
+        if (location.pathname !== '/home' && location.pathname !== '/') {
+            setBgColor('gray',)
         }
         else {
             setBgColor('transparent')
@@ -33,13 +45,17 @@ const Nav2 = () => {
     let activeStyle = {
         color: 'rgb(11, 186, 244)',
         fontWeight: '700',
-        textDecoration: 'underline'
     };
+
+
+    const handleLogOut = () => {
+        signOut(auth)
+    }
 
 
     return (
         <section style={{ backgroundColor: bgColor }} className={color ? 'navbar-container header-bg' : 'navbar-container'}>
-            <div className=' d-flex justify-content-between align-items-start px-5 pt-4'>
+            <div className='nav-container px-5'>
                 {/* logo  */}
                 <div className="logo">
                     <Link to='/home'><h1 className='text-white logo-text'>IT <span>Solution</span></h1></Link>
@@ -47,21 +63,13 @@ const Nav2 = () => {
 
                 {/* nav menu */}
                 <div className="nav-menu-container">
-                    <ul>
+                    <div className='nav-button' onClick={showNavbar}><Bars3Icon className='menu-icon'></Bars3Icon></div>
+                    <ul ref={navRef}>
+                        <div className='nav-button nav-close' onClick={showNavbar}><XMarkIcon className='menu-close-icon'></XMarkIcon></div>
                         <li>
                             <NavLink to='/home' style={({ isActive }) =>
                                 isActive ? activeStyle : undefined
                             } className="nav-menu">Home</NavLink>
-                        </li>
-                        <li>
-                            <NavLink to='/about' style={({ isActive }) =>
-                                isActive ? activeStyle : undefined
-                            } className="nav-menu">About</NavLink>
-                        </li>
-                        <li>
-                            <NavLink to='/blogs' style={({ isActive }) =>
-                                isActive ? activeStyle : undefined
-                            } className="nav-menu">Blogs</NavLink>
                         </li>
                         <li>
                             <NavLink to='/services' style={({ isActive }) =>
@@ -74,16 +82,30 @@ const Nav2 = () => {
                             } className="nav-menu">Team</NavLink>
                         </li>
                         <li>
-                            <NavLink to='/news' style={({ isActive }) =>
+                            <NavLink to='/blogs' style={({ isActive }) =>
                                 isActive ? activeStyle : undefined
-                            } className="nav-menu">News & Articles</NavLink>
+                            } className="nav-menu">Blogs</NavLink>
+                        </li>
+                        <li>
+                            <NavLink to='/about' style={({ isActive }) =>
+                                isActive ? activeStyle : undefined
+                            } className="nav-menu">About</NavLink>
                         </li>
                         <li>
                             <NavLink to='/contact' style={({ isActive }) =>
                                 isActive ? activeStyle : undefined
                             } className="nav-menu">Contact</NavLink>
                         </li>
+
+                        {/* login button  */}
+                        {user ?
+                            <Link onClick={handleLogOut} className='login-text'>LogOut</Link>
+                            :
+                            <Link className='login-text' to='/login'>Login</Link>
+                        }
+
                     </ul>
+
                 </div>
             </div>
         </section>

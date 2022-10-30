@@ -1,30 +1,16 @@
-.navbar-container {
-    position: fixed;
-    top: 50px;
-    background: transparent;
-    width: 100%;
-    z-index: 10;
-    overflow-x: hidden;
-}
-
-.header-bg{
-    background-color: rgba(0, 0, 0, 0.909) !important;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;    top: 0px;
-    height: 80px;
-    overflow-y: hidden !important;
-}
+/* logo style  */
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 
 .logo {
     text-decoration: underline;
 }
 
-.logo-text {
-    padding-bottom: 20px !important;
-}
 
 .logo a h1 {
-    font-size: 30px;
+    font-family: 'Lobster', cursive;
+    font-size: 24px;
     font-weight: 700;
+    padding-top: 10px;
 }
 
 .logo a {
@@ -33,6 +19,40 @@
 
 .logo h1 span {
     color: rgb(11, 186, 244);
+}
+
+
+
+/* navbar style */
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    overflow-y: hidden;
+}
+
+
+.navbar-container{
+    position: fixed;
+    top: 51px;
+    background: transparent;
+    width: 100%;
+    z-index: 10;
+    overflow-x: hidden;
+}
+
+.header-bg {
+    background-color: rgb(142, 142, 142) !important;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    top: 0px;
+    height: 60px;
+    overflow-y: hidden !important;
+    padding-bottom: 10px;
+}
+
+.header-bg .nav-menu-container{
+    padding-bottom: 10px;
 }
 
 .nav-menu-container ul li {
@@ -45,17 +65,118 @@
 
 .nav-menu {
     text-decoration: none;
-    padding-left: 25px;
-    font-size: 18px;
+    padding: 0px 11px;
+    font-size: 17px;
     font-weight: 600;
     color: white;
-    display: inline-block;
+    display: flex;
+    align-items: center;
     margin: 0 0.5rem;
     animation: slideInDown;
-    animation-duration: 1s;
+    animation-duration: 1.5s;
 }
 
 .nav-menu:hover {
     color: rgb(11, 186, 244);
     transition: 0.5s;
+}
+
+
+
+/* login button style  */
+.login-text {
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: transparent;
+    color: white;
+    padding: 0px 15px;
+    border-radius: 2px;
+    margin-left: 20px;
+}
+
+.login-text:hover {
+    background-color: rgb(11, 186, 244);
+    border: 1px solid rgb(11, 186, 244);
+    color: white;
+    transition: 0.4s ease-in-out;
+    transform: scale(1.1);
+}
+
+/* nav menu style  */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.menu-icon,
+.menu-close-icon {
+    width: 25px;
+    height: 25px;
+    color: white;
+}
+
+.nav-button {
+    cursor: pointer;
+    visibility: hidden;
+    opacity: 0;
+}
+
+
+/* responsive navbar  */
+
+@media only screen and (max-width: 992px) {
+
+    /* for laptop */
+    .nav-button {
+        visibility: visible;
+        opacity: 1;
+        margin-top: 10px;
+        padding-left: 2px;
+        padding-right: 2px;
+        border: 1px solid white;
+        border-radius: 2px;
+    }
+
+
+    .nav-menu-container ul {
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: skyblue;
+        transition: 0.5s;
+        transform: translateY(-100vh);
+    }
+
+    .nav-menu-container ul li .nav-menu{
+        margin-bottom: 20px;
+    }
+
+
+    .nav-menu-container .responsive_nav {
+        transform: none !important;
+    }
+
+    ul .nav-close{
+        position: absolute;
+        top: 16px;
+        right: 20px;
+    }
+
+    .nav-menu{
+        font-size: 20px;
+    }
+
+    .login-text{
+        margin-right: 20px;
+        padding-bottom: 2px;
+    }
 }
