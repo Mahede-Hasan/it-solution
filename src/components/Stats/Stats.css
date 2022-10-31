@@ -11,6 +11,10 @@
     cursor: pointer;
 }
 
+.card-box:hover{
+    border: none;
+}
+
 .card-box h1{
     text-align: center !important;
     font-weight: 700;

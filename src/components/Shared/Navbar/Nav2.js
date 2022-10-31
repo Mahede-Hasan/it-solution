@@ -70,32 +70,32 @@ const Nav2 = () => {
                         <li>
                             <NavLink to='/home' style={({ isActive }) =>
                                 isActive ? activeStyle : undefined
-                            } className="nav-menu">Home</NavLink>
+                            } className="nav-menu">HOME</NavLink>
                         </li>
                         <li className='dropdown-container'>
                             <NavLink to='/services' style={({ isActive }) =>
                                 isActive ? activeStyle : undefined
-                            } className="nav-menu">Service</NavLink>
+                            } className="nav-menu">SERVICES</NavLink>
                         </li>
                         <li>
-                            <NavLink to='team' style={({ isActive }) =>
+                            <NavLink to='/teams' style={({ isActive }) =>
                                 isActive ? activeStyle : undefined
-                            } className="nav-menu">Team</NavLink>
+                            } className="nav-menu">TEAM</NavLink>
                         </li>
                         <li>
                             <NavLink to='/blogs' style={({ isActive }) =>
                                 isActive ? activeStyle : undefined
-                            } className="nav-menu">Blogs</NavLink>
+                            } className="nav-menu">BLOGS</NavLink>
                         </li>
                         <li>
                             <NavLink to='/about' style={({ isActive }) =>
                                 isActive ? activeStyle : undefined
-                            } className="nav-menu">About</NavLink>
+                            } className="nav-menu">ABOUT</NavLink>
                         </li>
                         <li>
                             <NavLink to='/contact' style={({ isActive }) =>
                                 isActive ? activeStyle : undefined
-                            } className="nav-menu">Contact</NavLink>
+                            } className="nav-menu">CONTACT</NavLink>
                         </li>
 
                         {/* login button  */}

@@ -1,0 +1,46 @@
+[
+    {
+      "id": 1,
+      "img": "https://res.cloudinary.com/dxyvqsdqv/image/upload/v1667194690/IT_Solution/Team/christian-buehner-DItYlc26zVI-unsplash_1_qcxkv5.jpg",
+      "name": "Habib R. Neloy",
+      "description": "A PHP developer is responsible for writing server-side web application logic. PHP developers usually develop back-end components, connect the application with the other (often third-party) web services, and support the front-end developers by integrating their work with the application. They are also often required to develop and integrate plugins for certain popular frameworks.",
+      "expert": "Sr. PHP Developer"
+    },
+    {
+      "id": 2,
+      "img": "https://res.cloudinary.com/dxyvqsdqv/image/upload/v1667194691/IT_Solution/Team/paul-castanie-WZB_ZOqR4dA-unsplash_1_i5nwoa.jpg",
+      "name": "Fahmidul Khan",
+      "description": "A Software Developer, or Computer Software Developer, is responsible for using their knowledge of programming languages to design software programs. Their duties include meeting with clients to determine their software needs, coding and testing software to ensure functionality and updating software programs to refine components like cybersecurity measures and data storage capacities.",
+      "expert": "Sr. Software Developer"
+    },
+    {
+      "id": 9,
+      "img": "https://res.cloudinary.com/dxyvqsdqv/image/upload/v1667194690/IT_Solution/Team/sigmund-a19OVaa2rzA-unsplash_1_ws6tms.jpg",
+      "name": "Ethan",
+      "description": "WordPress developers design and implement websites for companies using the WordPress creation tool. They are responsible for both front-end and back-end development, including the implementation of themes and plugins. Their goal is to create attractive and user-friendly websites according to client specifications.",
+      "expert": "Sr. Wordpress Developer"
+    },
+    {
+      "id": 4,
+      "img": "https://res.cloudinary.com/dxyvqsdqv/image/upload/v1667194690/IT_Solution/Team/behrouz-sasani-cEnSr1WRHUY-unsplash_1_mvz8eq.jpg",
+      "name": "Oliver",
+      "description": "React.js developers design and implement user interface components for JavaScript-based web and mobile applications using the React open-source library ecosystem. These skilled front-end developers are involved in all stages of interface component design, from conception through to final testing.",
+      "expert": "Sr. React Developer"
+    },
+    {
+      "id": 5,
+      "img": "https://res.cloudinary.com/dxyvqsdqv/image/upload/v1667194690/IT_Solution/Team/irene-strong-v2aKnjMbP_k-unsplash_1_rjflrp.jpg",
+      "name": "Ruhul Amin",
+      "description": "A Graphic Designer is an artist who creates visual text and imagery. They design creative content for online campaigns, print ads, websites, and even videos.",
+      "expert": "Sr. Graphics Designer"
+    },
+    {
+      "id": 6,
+      "img": "https://res.cloudinary.com/dxyvqsdqv/image/upload/v1667194690/IT_Solution/Team/ludovic-migneault-EZ4TYgXPNWk-unsplash_1_ifpgbn.jpg",
+      "name": "Lucas",
+      "description": "A mobile application developer is someone who produces programs for particular mobile hardware or software technologies. Often, these developers specialize in a particular operating system, such as iOS or Android.",
+      "expert": "Sr. App Developer"
+    }
+   
+  
+  ]

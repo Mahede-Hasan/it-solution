@@ -84,7 +84,8 @@
 
 .nav-menu:hover {
     color: rgb(11, 186, 244);
-    transition: 0.5s;
+    transition: 0.3s ease-in-out;
+    transform: scale(1.09);
 }
 
 .divider {

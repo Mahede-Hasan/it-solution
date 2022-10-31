@@ -79,6 +79,7 @@
 
 .banner-btn:hover{
     background-color: transparent;
+    transition: 0.3s ease-in-out;
     border: 2px solid rgb(11, 186, 244);
     color: rgb(11, 186, 244);
 }
