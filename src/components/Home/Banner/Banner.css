@@ -1,5 +1,5 @@
 .carousel-container{
-    height: 600px;
+    height: 100vh;
     min-height: 300px;
     background: no-repeat scroll center scroll;
     -webkit-background-size: cover;
@@ -14,8 +14,8 @@
     right: 0;
     left: 0;
     bottom: 0;
-    background-image: linear-gradient(#000000, #3c3c3c, #000000);
-    height: 600px;
+    background-image: linear-gradient(#000000da, #3c3c3c, #000000de);
+    height: 100vh;
     min-height: 300px;
     background: no-repeat scroll center scroll;
     -webkit-background-size: cover;
@@ -24,7 +24,7 @@
 }
 
 .banner-img{
-    height: 600px;
+    height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -103,15 +103,15 @@
 /* for tablet device */
 @media only screen and (max-width: 768px) {
     .carousel-container{
-        height: 400px;
+        height: 450px;
     }
 
     .carousel-container::before{
-        height: 400px;
+        height: 450px;
     }
 
     .banner-img{
-        height: 400px;
+        height: 450px;
     }
 
     /* banner content  */
@@ -141,24 +141,24 @@
 /* for mobile  */
 @media only screen and (max-width: 576px) {
     .carousel-container{
-        height: 300px;
+        height: 420px;
     }
 
     .carousel-container::before{
-        height: 300px;
+        height: 420px;
     }
 
     .banner-img{
-        height: 300px;
+        height: 420px;
     }
 
     /* banner content  */
     .banner-content {
-        padding-bottom: 0px;
+        padding-bottom: 20px;
     }
     
     .banner-content h1 {
-        font-size: 30px;
+        font-size: 24px;
         padding-bottom: 8px;
     }
 

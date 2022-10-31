@@ -11,6 +11,7 @@
     font-size: 24px;
     font-weight: 700;
     padding-top: 10px;
+
 }
 
 .logo a {
@@ -22,18 +23,19 @@
 }
 
 
-
 /* navbar style */
-.nav-container{
+.nav-container {
+    padding-bottom: 10px !important;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 60px;
+    height: 50px;
     overflow-y: hidden;
+    margin: 0px auto !important;
 }
 
 
-.navbar-container{
+.navbar-container {
     position: fixed;
     top: 51px;
     background: transparent;
@@ -43,15 +45,19 @@
 }
 
 .header-bg {
-    background-color: rgb(142, 142, 142) !important;
+    background-color: rgba(8, 8, 8, 0.781) !important;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
     top: 0px;
     height: 60px;
     overflow-y: hidden !important;
-    padding-bottom: 10px;
+    padding-top: 10px !important;
 }
 
-.header-bg .nav-menu-container{
+.header-bg .divider {
+    display: none;
+}
+
+.header-bg .nav-menu-container {
     padding-bottom: 10px;
 }
 
@@ -81,7 +87,13 @@
     transition: 0.5s;
 }
 
-
+.divider {
+    width: 93%;
+    background-color: white;
+    color: white;
+    padding: 0px !important;
+    margin: 0px auto !important;
+}
 
 /* login button style  */
 .login-text {
@@ -147,16 +159,18 @@
         top: 0;
         left: 0;
         height: 100%;
-        width: 100%;
+        width: 100% !important;
         flex-direction: column;
         align-items: center;
         justify-content: center;
         background-color: skyblue;
         transition: 0.5s;
         transform: translateY(-100vh);
+        overflow-x: hidden;
+        overflow-y: hidden;
     }
 
-    .nav-menu-container ul li .nav-menu{
+    .nav-menu-container ul li .nav-menu {
         margin-bottom: 20px;
     }
 
@@ -165,17 +179,17 @@
         transform: none !important;
     }
 
-    ul .nav-close{
+    ul .nav-close {
         position: absolute;
         top: 16px;
         right: 20px;
     }
 
-    .nav-menu{
+    .nav-menu {
         font-size: 20px;
     }
 
-    .login-text{
+    .login-text {
         margin-right: 20px;
         padding-bottom: 2px;
     }

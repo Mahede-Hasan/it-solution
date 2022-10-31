@@ -55,6 +55,7 @@ const Nav2 = () => {
 
     return (
         <section style={{ backgroundColor: bgColor }} className={color ? 'navbar-container header-bg' : 'navbar-container'}>
+                  <hr className='divider' />
             <div className='nav-container px-5'>
                 {/* logo  */}
                 <div className="logo">
@@ -71,7 +72,7 @@ const Nav2 = () => {
                                 isActive ? activeStyle : undefined
                             } className="nav-menu">Home</NavLink>
                         </li>
-                        <li>
+                        <li className='dropdown-container'>
                             <NavLink to='/services' style={({ isActive }) =>
                                 isActive ? activeStyle : undefined
                             } className="nav-menu">Service</NavLink>
@@ -108,6 +109,7 @@ const Nav2 = () => {
 
                 </div>
             </div>
+      
         </section>
     );
 };

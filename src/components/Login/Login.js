@@ -49,11 +49,11 @@ const Login = () => {
                     <h2 className=''>LOGIN</h2>
                     <div className="form-group">
                         <label for="exampleInputEmail1">Email address</label>
-                        <input type="email" name='email' className="form-control w-75 " id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" required />
+                        <input type="email" name='email' className="form-control w-75 form-input" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" required />
                     </div>
                     <div className="form-group">
                         <label for="exampleInputPassword1">Password</label>
-                        <input type="password" name='password' className="form-control w-75" id="exampleInputPassword1" placeholder="Password" required />
+                        <input type="password" name='password' className="form-control w-75 form-input" id="exampleInputPassword1" placeholder="Password" required />
                         <p>Forget password? <span className='reset-password' onClick={handleReset}>Reset Password</span></p>
                     </div>
                     <p>{errorElement}</p>

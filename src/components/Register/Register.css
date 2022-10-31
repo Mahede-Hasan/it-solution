@@ -74,3 +74,22 @@
 .register-btn:hover {
     color: rgb(67, 200, 252);
 }
+
+/* responsive for mobile  */
+
+@media only screen and (max-width: 576px) {
+    .register-container {
+        max-height: 900px;
+    }
+
+    .form-container {
+        margin-top: 150px !important;
+        width: 380px;
+        height: 610px;
+    }
+
+    .form-inner-container {
+        padding-left: 30px;
+        padding-top: 30px;
+    }
+}

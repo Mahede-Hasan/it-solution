@@ -9,7 +9,7 @@
     grid-template-columns: 20% 80%;
 }
 
-.story-line h5{
+.story-line h5 {
     color: gray !important;
 }
 
@@ -80,57 +80,78 @@
 
 /* responsive */
 
+
+/* for laptop */
 @media only screen and (max-width:992px) {
     .story-container {
+        overflow-x: hidden;
         display: block;
-        margin: 50px auto;
+        margin: 50px auto !important;
     }
 
-    .story-content{
-       margin-left: 10px;
-       margin-right: 50px;
+    .story-content {
+        margin-left: 10px;
+        margin-right: 50px;
     }
 
-.story-text{
-    margin-left: 20px;
-}
+    .story-text {
+        margin-left: 20px;
+    }
 
-    .line{
+    .line {
         margin-right: 30px;
         margin-left: 30px;
         height: 300px;
     }
 
-    .story-line h5{
+    .story-line h5 {
         font-size: 14px;
         margin-top: 10px;
     }
 
-    .story-text p{
+    .story-text p {
         font-size: 13px;
     }
 
-    .read-more-btn{
+    .read-more-btn {
         font-weight: 500;
-    font-size: 15px;
-    margin-right: 10px;
-    padding: 1px 8px;
+        font-size: 15px;
+        margin-right: 10px;
+        padding: 1px 8px;
     }
 
-    .quote-btn{
+    .quote-btn {
         font-weight: 500;
-    font-size: 15px;
-    margin-right: 10px;
-    padding: 1px 8px;
+        font-size: 15px;
+        margin-right: 10px;
+        padding: 1px 8px;
     }
 
+    .story-img {
+        margin: 0px auto !important;
+    }
 
     .story-img img {
-        margin-left: 15%;
-        width: 380px;
-        height: 250px;
+        width: 420px;
+        height: 300px;
         margin-top: 40px;
         border-radius: 4px;
         box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+}
+
+/* tablate */
+@media only screen and (max-width: 768px) {
+    .story-img img {
+        width: 350px;
+        height: 230px;
+    }
+}
+
+/* mobile  */
+@media only screen and (max-width: 576px) {
+    .story-img img {
+        width: 270px;
+        height: 200px;
     }
 }

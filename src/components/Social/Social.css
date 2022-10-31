@@ -1,4 +1,4 @@
-.google-btn{
+.google-btn {
     width: 55%;
     margin-left: 113px;
     border: none;
@@ -9,6 +9,17 @@
     font-weight: 600;
 }
 
-.google-btn:hover{
+.google-btn:hover {
     background-color: rgb(90, 3, 171);
+}
+
+
+/* responsive for mobile */
+@media only screen and (max-width: 576px) {
+    .google-btn {
+        width: 83%;
+        margin-left: 30px;
+        padding-top: 4px;
+        padding-bottom: 4px;
+    }
 }
