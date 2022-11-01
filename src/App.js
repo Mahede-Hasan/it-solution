@@ -13,6 +13,7 @@ import 'react-toastify/dist/ReactToastify.css';
 import TeamAll from './components/Team/TeamAll';
 import ServiceAll from './components/Home/Services/ServiceAll';
 import About from './components/About/About';
+import Contact from './components/Contact/Contact';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
         <Route path='/services' element={<ServiceAll></ServiceAll>}></Route>
         <Route path='/teams' element={<TeamAll></TeamAll>}></Route>
         <Route path='/about' element={<About></About>}></Route>
+        <Route path='/contact' element={<Contact></Contact>}></Route>
         <Route path='/login' element={<Login></Login>}></Route>
         <Route path='/register' element={<Register></Register>}></Route>
         <Route path='*' element={<NotFound></NotFound>}></Route>
