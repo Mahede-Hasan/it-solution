@@ -7,7 +7,6 @@ import Loading from '../Shared/Loading/Loading';
 import { toast } from 'react-toastify';
 import Social from '../Social/Social';
 
-
 const Register = () => {
     const [
         createUserWithEmailAndPassword,

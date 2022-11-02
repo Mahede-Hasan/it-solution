@@ -11,8 +11,8 @@ const Blogs = () => {
     const [blogs] = useBlogs()
 
     return (
-        <div className='mx-5 py-5'>
-            <h1 className='text-center my-4 text-secondary'>Blogs of Programming</h1>
+        <div className='mx-5 pb-5'>
+            <h1 className='text-center header-text'><span>Blogs</span> of Programming</h1>
             <div className='row'>
                 {
                     blogs.slice(0,3).map(blog=><Blog key={blog.id} blog={blog}></Blog>)

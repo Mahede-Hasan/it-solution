@@ -1,21 +1,16 @@
 .navbar-social-container{
-    position: absolute;
-    background: transparent;
-    width: 100%;
-    z-index: 10;
-    overflow-x: hidden;
-    margin-bottom: 20px !important;
+background-color: rgb(56, 195, 250);
 }
 
 .social{
     margin-left: 14px;
-    fill: white;
+    fill: rgb(118, 119, 119);
     fill-opacity: 0.5;
 }
 .social:hover{
     transition: 0.3s ease-in-out;
     transform: scale(1.08);
-    fill: rgb(36, 192, 254);
+    fill: rgb(118, 119, 119);
     fill-opacity: 1;
 }
 

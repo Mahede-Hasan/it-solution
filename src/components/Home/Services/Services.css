@@ -1,7 +1,25 @@
-.service-text {
-    display: block;
-    margin: 0 0.5rem;
-    animation: slideInDown;
+
+.header-text {
+    animation: slideInRight;
     animation-duration: 1s;
-    text-decoration: line-through;
+    padding-top: 80px;
+    padding-bottom: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.header-text span{
+    color: rgb(45, 194, 253);
+}
+
+.services-container {
+    background-color: #f7f7f7 !important;
+    padding-bottom: 80px;
+}
+
+/* responsive for mobile */
+@media only screen and (max-width: 576px) {
+    .header-text{
+        font-size: 20px;
+    }
 }

@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import Footer from '../../Shared/Footer/Footer';
 import Service from './Service';
 import './Services.css'
 
@@ -11,15 +12,18 @@ const ServiceAll = () => {
             .then(data => setServices(data))
     }, [])
     return (
-        <section className='services-container px-4'>
-            <div className=''></div>
-            <h1 style={{paddingTop: '140px'}} className='service-text text-center'>OUR SERVICES</h1>
-           <div className="services row">
-           {
-                services.map(service=> <Service key={service.id} service={service}></Service>)
-            }
-           </div>
-        </section>
+        <div>
+            <section className='services-container px-4'>
+                <div className=''></div>
+                <h1 style={{ paddingTop: '100px' }} className='service-text text-center header-text'><span>OUR</span> SERVICES</h1>
+                <div className="services row">
+                    {
+                        services.map(service => <Service key={service.id} service={service}></Service>)
+                    }
+                </div>
+            </section>
+            <Footer></Footer>
+        </div>
     );
 };
 

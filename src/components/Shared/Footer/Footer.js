@@ -4,7 +4,7 @@ import './Footer.css'
 
 const Footer = () => {
     return (
-        <div className='mt-5'>
+        <div className='mt-5 footer-container'>
             <footer id="footer" class="footer-1">
                 <div class="main-footer widgets-dark typo-light">
                     <div class="container">
@@ -73,7 +73,7 @@ const Footer = () => {
                                 <div class="widget no-box">
                                     <h5 class="widget-title">Contact Us<span></span></h5>
 
-                                    <p>Gmail: <a className='contact-gmail' href="#">contact.mahede@gmail.com</a></p>
+                                    <p>Mail: <a className='contact-gmail' href="#">contact.mahede@gmail.com</a></p>
                                     <h6 className='pb-2'>Call: +8801704877492</h6>
                                     <Link to='/facebook'><svg height='25px' width='25px' className='social' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M400 32H48A48 48 0 0 0 0 80v352a48 48 0 0 0 48 48h137.25V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.27c-30.81 0-40.42 19.12-40.42 38.73V256h68.78l-11 71.69h-57.78V480H400a48 48 0 0 0 48-48V80a48 48 0 0 0-48-48z" /></svg></Link>
                                     <Link to='/youtube'><svg height='25px' width='25px' className='social ' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" ><path d="M186.8 202.1l95.2 54.1-95.2 54.1V202.1zM448 80v352c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V80c0-26.5 21.5-48 48-48h352c26.5 0 48 21.5 48 48zm-42 176.3s0-59.6-7.6-88.2c-4.2-15.8-16.5-28.2-32.2-32.4C337.9 128 224 128 224 128s-113.9 0-142.2 7.7c-15.7 4.2-28 16.6-32.2 32.4-7.6 28.5-7.6 88.2-7.6 88.2s0 59.6 7.6 88.2c4.2 15.8 16.5 27.7 32.2 31.9C110.1 384 224 384 224 384s113.9 0 142.2-7.7c15.7-4.2 28-16.1 32.2-31.9 7.6-28.5 7.6-88.1 7.6-88.1z" /></svg></Link>
@@ -87,7 +87,7 @@ const Footer = () => {
                 </div>
 
                 <div class="footer-copyright">
-                    <div class="container">
+                    <div class="container-footer">
                         <div class="row">
                             <div class="col-md-12 text-center">
                                 <p><small>Copyright IT Solution © 2022. All rights reserved.</small></p>

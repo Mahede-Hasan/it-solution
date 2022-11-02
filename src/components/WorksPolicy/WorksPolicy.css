@@ -16,7 +16,7 @@
 }
 
 .box {
-    background: -webkit-linear-gradient(rgb(232, 231, 231), rgb(178, 233, 250));
+    background: rgba(131, 213, 248, 0.813);
     width: 370px !important;
     height: 250px !important;
     margin: 30px auto !important;
@@ -28,30 +28,29 @@
 
 .box:hover {
     cursor: pointer;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
-    background: -webkit-linear-gradient(rgb(178, 233, 250), rgb(232, 231, 231));
-
-    transform: scale(1.07);
-    transition: 0.3s;
+    border: 1px solid rgba(131, 213, 248, 0.813);
+    background: white;
+    transform: scale(1.02);
+    transition: 1s;
 }
 
-.box p {
+.box:hover p{
+    color: gray;
+}
+
+.box  p {
     padding-top: 10px;
     text-align: justify;
-    color: black;
+    color: white;
     font-size: 16px;
 }
 
 
-.box h2 span {
-    color: gray;
-}
 
 /* responsive for mobile  */
 
 @media only screen and (max-width: 576px) {
     .box {
-        background: -webkit-linear-gradient(rgb(232, 231, 231), rgb(178, 233, 250));
         width: 290px !important;
         height: 280px !important;
         margin: 30px auto !important;

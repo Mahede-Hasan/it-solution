@@ -5,7 +5,7 @@ const Team = ({team}) => {
     const {img, name, description, expert} = team;
     return (
         <div className='team-container col-lg-6 col-md-12 mx-auto'>
-            <div className="img-content-container ps-3">
+            <div className="img-content-container">
                 <img src={img} alt="" />
                 <h6>{name}</h6>
                 <p><small>{expert}</small></p>

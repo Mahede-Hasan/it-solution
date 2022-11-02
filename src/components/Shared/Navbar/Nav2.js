@@ -33,7 +33,7 @@ const Nav2 = () => {
     // when click another route change the background color in navbar
     useEffect(() => {
         if (location.pathname !== '/home' && location.pathname !== '/') {
-            setBgColor('gray',)
+            setBgColor('gray')
         }
         else {
             setBgColor('transparent')
@@ -54,8 +54,7 @@ const Nav2 = () => {
 
 
     return (
-        <section style={{ backgroundColor: bgColor }} className={color ? 'navbar-container header-bg' : 'navbar-container'}>
-                  <hr className='divider' />
+    <section style={{ backgroundColor: bgColor }} className={color ? 'navbar-container header-bg' : 'navbar-container'}>
             <div className='nav-container px-5'>
                 {/* logo  */}
                 <div className="logo">

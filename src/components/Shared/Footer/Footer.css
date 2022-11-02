@@ -1,4 +1,8 @@
-footer .main-footer{  padding: 20px 0;  background: #8f8f8f;}
+.footer-container{
+  overflow-x: hidden;
+}
+
+footer .main-footer{  padding: 20px 0;  background: rgba(131, 213, 248, 0.813);}
 footer ul{  padding-left: 0;  list-style: none;}
 
 /* Copy Right Footer */

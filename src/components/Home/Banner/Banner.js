@@ -18,7 +18,7 @@ const Banner = () => {
                 <Carousel.Caption>
                     <div className="banner-content">
                     <h1 className=''>Software Development</h1>
-                    <p className='mb-3'>IT-Solutions BD A Leading Software Company In Bangladesh.</p>
+                    <p className='mb-3'>IT-Solutions Leading Software Company In Bangladesh.</p>
                     <button className='banner-btn'>View Details</button>
                     </div>
                 </Carousel.Caption>

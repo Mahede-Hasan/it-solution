@@ -13,8 +13,12 @@
     color: gray !important;
 }
 
+.story-text h1{
+    font-weight: 700;
+}
+
 .story-text p {
-    font-size: 17px;
+    font-size: 16px;
     font-weight: 600;
     text-align: justify;
     color: gray;

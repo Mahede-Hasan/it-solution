@@ -1,28 +1,34 @@
-.contact-container{
+.contact-container {
     overflow-x: hidden;
 }
 
-.contact-title-container{
+.contact-title-container {
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1420%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='url(%23SvgjsLinearGradient1421)'%3e%3c/rect%3e%3cpath d='M0 0L33.7 0L0 122.84z' fill='rgba(255%2c 255%2c 255%2c .1)'%3e%3c/path%3e%3cpath d='M0 122.84L33.7 0L509.45 0L0 214.82999999999998z' fill='rgba(255%2c 255%2c 255%2c .075)'%3e%3c/path%3e%3cpath d='M0 214.82999999999998L509.45 0L799.28 0L0 280.64z' fill='rgba(255%2c 255%2c 255%2c .05)'%3e%3c/path%3e%3cpath d='M0 280.64L799.28 0L888.36 0L0 382.28999999999996z' fill='rgba(255%2c 255%2c 255%2c .025)'%3e%3c/path%3e%3cpath d='M1440 560L1032.8899999999999 560L1440 493.84000000000003z' fill='rgba(0%2c 0%2c 0%2c .1)'%3e%3c/path%3e%3cpath d='M1440 493.84000000000003L1032.8899999999999 560L584.8 560L1440 295.70000000000005z' fill='rgba(0%2c 0%2c 0%2c .075)'%3e%3c/path%3e%3cpath d='M1440 295.70000000000005L584.8 560L562.8299999999999 560L1440 239.63000000000005z' fill='rgba(0%2c 0%2c 0%2c .05)'%3e%3c/path%3e%3cpath d='M1440 239.63000000000005L562.8299999999999 560L361.65999999999997 560L1440 143.68000000000006z' fill='rgba(0%2c 0%2c 0%2c .025)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1420'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3clinearGradient x1='15.28%25' y1='-39.29%25' x2='84.72%25' y2='139.29%25' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1421'%3e%3cstop stop-color='rgba(0%2c 145%2c 186%2c 1)' offset='0'%3e%3c/stop%3e%3cstop stop-color='rgba(56%2c 198%2c 255%2c 0.93)' offset='1'%3e%3c/stop%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e");
-    height: 180px;
+    height: 120px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
 
-.contact-title-container{
-    padding-top: 80px;
+.contact-title-container {
+    padding-top: 50px;
 }
 
-.contact-title-container h2{
+.contact-title-container h2 {
     color: rgb(223, 223, 223);
     display: inline-block;
     animation: slideInRight;
     animation-duration: 1s;
 }
 
-.contact-location{
-    padding-top: 30px;
+.contact-location {
+    padding-top: 10px;
 }
 
-.contact-form-container{
+.contact-information-container img {
+    margin-bottom: 60px;
+    margin-left: 100px;
+    width: 220px;
+}
+
+.contact-form-container {
     border-radius: 4px;
 }

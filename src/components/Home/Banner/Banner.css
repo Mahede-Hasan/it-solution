@@ -24,7 +24,7 @@
 }
 
 .banner-img{
-    height: 100vh;
+    height: 120vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -47,8 +47,9 @@
 }
 
 .banner-content h1 {
-    text-decoration: underline rgb(11, 186, 244);
-    padding-bottom: 25px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    padding-bottom: 20px;
     display: inline-block;
     margin: 0 0.5rem;
     animation: slideInRight;
@@ -56,6 +57,8 @@
 }
 
 .banner-content p{
+    font-weight: 700;
+    letter-spacing: 1px;
     display: block;
     margin: 0 0.5rem;
     animation: slideInDown;

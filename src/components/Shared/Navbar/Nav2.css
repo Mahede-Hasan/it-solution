@@ -11,16 +11,14 @@
     font-size: 24px;
     font-weight: 700;
     padding-top: 10px;
-
+    color: rgb(56, 195, 250) !important;
 }
 
 .logo a {
-    text-decoration: white;
+    text-decoration: rgb(56, 195, 250);
 }
 
-.logo h1 span {
-    color: rgb(11, 186, 244);
-}
+
 
 
 /* navbar style */
@@ -32,12 +30,13 @@
     height: 50px;
     overflow-y: hidden;
     margin: 0px auto !important;
+    overflow-x: hidden;
 }
 
 
 .navbar-container {
     position: fixed;
-    top: 51px;
+    top: 46px;
     background: transparent;
     width: 100%;
     z-index: 10;
@@ -47,14 +46,14 @@
 .header-bg {
     background-color: rgba(8, 8, 8, 0.781) !important;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
-    top: 0px;
+    top: 0px !important;
     height: 60px;
     overflow-y: hidden !important;
     padding-top: 10px !important;
 }
 
 .header-bg .divider {
-    display: none;
+    display: none !important;
 }
 
 .header-bg .nav-menu-container {
@@ -83,9 +82,8 @@
 }
 
 .nav-menu:hover {
-    color: rgb(11, 186, 244);
+    color: rgb(56, 195, 250);
     transition: 0.3s ease-in-out;
-    transform: scale(1.09);
 }
 
 .divider {
@@ -142,6 +140,15 @@
 /* responsive navbar  */
 
 @media only screen and (max-width: 992px) {
+
+    .navbar-container {
+        position: fixed;
+        top: 37px;
+        background: transparent;
+        width: 100%;
+        z-index: 10;
+        overflow-x: hidden;
+    }
 
     /* for laptop */
     .nav-button {
